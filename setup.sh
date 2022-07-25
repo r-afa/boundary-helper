@@ -9,9 +9,9 @@
 HOME=~
 
 # copy the required files to local computer
-curl https://raw.githubusercontent.com/r-afa/boundary-helper/main/b.sh >| ~/.b.sh
-curl https://raw.githubusercontent.com/r-afa/boundary-helper/main/boundary-completion.bash >| ~/.boundary-completion.bash
-curl https://raw.githubusercontent.com/r-afa/boundary-helper/main/boundary_credential_helper.sh >| ~/.boundary_credential_helper.sh
+curl https://raw.githubusercontent.com/r-afa/boundary-helper/main/b.sh -o ~/.b.sh
+curl https://raw.githubusercontent.com/r-afa/boundary-helper/main/boundary-completion.bash -o ~/.boundary-completion.bash
+curl https://raw.githubusercontent.com/r-afa/boundary-helper/main/boundary_credential_helper.sh -o ~/.boundary_credential_helper.sh
 
 chmod +x ~/.b.sh
 chmod +x ~/.boundary_credential_helper.sh
